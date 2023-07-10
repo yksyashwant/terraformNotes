@@ -1,0 +1,14 @@
+                Question & answers
+1.	what is Terraform?
+Terraform is an infrastructure as code tool that lets you define both cloud and on-prem resources human readable configuration files that you can veerrsion, reuse and share. 
+
+2.	How does Terraform works?
+Terraform creates and manages the resources by using APIs.HashiCorp and the Terraform community has written thousands of providers to manage many different types of resources and services. You can find all the providers  on the Terraform Registry.
+
+		The core Terraform workflow consists three stages.
+
+	Write - Define resources which may be across multiple cloud providers.
+	Plan - Terraform creates an execution plan describing 	the infrastructure it will create, update or destroy.
+	Apply - On Approval, Terraform performs the proposed operation in the current order.
+
+
