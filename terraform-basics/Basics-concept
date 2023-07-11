@@ -40,3 +40,14 @@ Terraform uses the state file to determine the changes to make to your infrastru
 Follow the below link to install Terraform 
 	https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
+
+
+References 
+terraform with ec2 instance
+https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build
+Associates tutorial list 
+https://developer.hashicorp.com/terraform/tutorials/certification-associate-tutorials-003
+Terraform Language Document 
+https://developer.hashicorp.com/terraform/language
+write configuration files
+https://developer.hashicorp.com/terraform/tutorials/configuration-language
