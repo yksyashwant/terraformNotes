@@ -36,6 +36,7 @@ Terraform providers automatically calculate dependencies between resources to cr
 3.	How to track the infrastructure? or what is state file?
 Terraform keeps track of your real infrastructure in a state file, which acts as a source of truth for your environment. 
 Terraform uses the state file to determine the changes to make to your infrastructure so that it will match your configuration.
+
 4.	how to install terraform ?
 Follow the below link to install Terraform 
 	https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
