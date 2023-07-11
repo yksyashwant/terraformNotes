@@ -76,9 +76,14 @@ To activate grouping mode, add the symbol ... after the value expression. For ex
 Splat Expressions
 A splat expression provides a more concise way to express a common operation that could otherwise be performed with a for expression.
 
-[for o in var.list : o.id]
-This is equivalent to the following splat expression:
-var.list[*].id
+            [for o in var.list : o.id]
+            This is equivalent to the following splat expression:
+            var.list[*].id
+
+Terraform Function 
+The Terraform language has a number of built-in functions that can be used in expressions to transform and combine values.
+      <FUNCTION NAME>(<ARGUMENT 1>, <ARGUMENT 2>)
+            min(55, 3453, 2)
 
 
 
