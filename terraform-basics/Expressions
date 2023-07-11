@@ -47,6 +47,19 @@ Finally, there is one special value that has no type:
 
     null: a value that represents absence or omission. If you set an argument of a resource to null, Terraform behaves as though you had completely omitted it — it will use the argument's default value if it has one, or raise an error if the argument is mandatory. null is most useful in conditional expressions, so you can dynamically omit an argument if a condition isn't met.
 
+Conversion of Primitive Types
+    The Terraform language will automatically convert number and bool values to string values when needed, and vice-versa as long as the string contains a valid representation of a number or boolean value.
+
+        true converts to "true", and vice-versa
+        false converts to "false", and vice-versa
+        15 converts to "15", and vice-versa
+
+Conversion of Complex Types
+    Whenever possible, Terraform converts values between similar kinds of complex types if the provided value is not the exact type requested. "Similar kinds" is defined as follows:
+            Objects and maps are similar.
+            Tuples and lists are similar.
+            Sets are almost similar to both tuples and lists:
+
 Interpolation
 A ${ ... } sequence is an interpolation, which evaluates the expression given between the markers, converts the result to a string if necessary, and then inserts it into the final string:
       example
