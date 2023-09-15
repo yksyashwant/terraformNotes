@@ -5,7 +5,8 @@ resource "aws_vpc" "my_vpc" {
     Name = "MyVPC"
   }
 }
-
+#A public subnet is a subnet that is associated with a route table that has a route to an Internet gateway. 
+# This connects the VPC to the Internet and to other AWS services.
 resource "aws_subnet" "public_subnet" {
   count             = 2
   cidr_block        = "10.0.${count.index}.0/24"
@@ -16,7 +17,7 @@ resource "aws_subnet" "public_subnet" {
     Name = "Public-Subnet-${count.index}"
   }
 }
-
+#A private subnet is a subnet that is associated with a route table that doesn’t have a route to an internet gateway. 
 resource "aws_subnet" "private_subnet" {
   count             = 2
   cidr_block        = "10.0.${count.index + 2}.0/24"
@@ -27,6 +28,13 @@ resource "aws_subnet" "private_subnet" {
     Name = "Private-Subnet-${count.index}"
   }
 }
+#Why Public Subnet 
+#The resources in the public subnet can send outbound traffic directly to the Internet and vice versa. 
+#For example web server needs to be accessed by users from the internet.   
+#Why Private Subnet 
+#Resources like database may require connection to internet for updates/patches but should not be accepting request from the internet. 
+#In such cases a private subnet is to be used.
+
 
 resource "aws_internet_gateway" "my_igw" {
   vpc_id = aws_vpc.my_vpc.id
@@ -35,6 +43,7 @@ resource "aws_internet_gateway" "my_igw" {
   }
 }
 
+#Route table — A set of rules, called routes, that are used to determine where network traffic is directed.
 resource "aws_route_table" "public_rt" {
   vpc_id = aws_vpc.my_vpc.id
 
