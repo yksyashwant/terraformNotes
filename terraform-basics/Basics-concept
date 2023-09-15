@@ -1,6 +1,6 @@
 1. what is Terraform?
 	Terraform is an infrastructure as code tool that lets you define both cloud and on-prem resources human readable configuration files 
-	that you can veerrsion, reuse and share. 
+	that you can version, reuse and share. 
 	Terraform is HashiCorp's infrastructure as code tool.
 
 2.  Terraform Key Concepts:
