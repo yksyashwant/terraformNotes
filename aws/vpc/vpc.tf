@@ -35,7 +35,7 @@ resource "aws_subnet" "private_subnet" {
 #Resources like database may require connection to internet for updates/patches but should not be accepting request from the internet. 
 #In such cases a private subnet is to be used.
 
-
+#Internet gateway — A gateway that you attach to your VPC to enable communication between resources in your VPC and the internet.
 resource "aws_internet_gateway" "my_igw" {
   vpc_id = aws_vpc.my_vpc.id
   tags = {
