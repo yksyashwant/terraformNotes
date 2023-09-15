@@ -1,6 +1,6 @@
 1. Explain how you can achieve versioning and maintainability of your Terraform configurations.
 
-    Achieving versioning and maintainability of your Terraform configurations is crucial for keeping your infrastructure code organized, adaptable, and manageable over time. Here are some strategies to achieve versioning and maintainability:
+Achieving versioning and maintainability of your Terraform configurations is crucial for keeping your infrastructure code organized, adaptable, and manageable over time. Here are some strategies to achieve versioning and maintainability:
 
     1. Use Version Control:
 
