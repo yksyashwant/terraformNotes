@@ -56,7 +56,7 @@
 	to manage many different types of resources and services. You can find all the providers  on the Terraform Registry.
 
 
-To deploy infrastructure with Terraform:
+7. To deploy infrastructure with Terraform:
 
 	Scope - Identify the infrastructure for your project.
 	Author - Write the configuration for your infrastructure.
@@ -64,19 +64,19 @@ To deploy infrastructure with Terraform:
 	Plan - Preview the changes Terraform will make to match your configuration.
 	Apply - Make the planned changes.
 
-3.How to track the infrastructure? or what is state file?
+8. How to track the infrastructure? or what is state file?
 
 	Terraform keeps track of your real infrastructure in a state file, which acts as a source of truth for your environment. 
 	Terraform uses the state file to determine the changes to make to your infrastructure so that it will match your configuration.
 
-4. how to install terraform ?
+9. how to install terraform ?
 	Follow the below link to install Terraform 
 		https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
-1. Why Terraform?
+10. Why Terraform?
 The main purpose of the Terraform language is declaring resources, which represent infrastructure objects.
 
-2.  What is Terrraform configuration ?
+11.  What is Terrraform configuration ?
 A Terraform configuration is a complete document in the Terraform language that tells Terraform how to manage a given collection of infrastructure. 
   A configuration can consist of multiple files and directories.  
 
