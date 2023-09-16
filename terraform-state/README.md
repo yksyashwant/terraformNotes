@@ -26,10 +26,6 @@ How do you import manually creeated resources into terraform?
     example:
             terraform import aws_vpc.test_vpc vpc-a01106c2
 
-            
-
-
-
 
 
 
