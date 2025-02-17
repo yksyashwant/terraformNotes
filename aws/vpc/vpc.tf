@@ -79,8 +79,6 @@ resource "aws_route" "private_nat_route" {
   nat_gateway_id         = aws_nat_gateway.my_nat_gateway[0].id
 }
 
-
-
 resource "aws_route_table_association" "private_subnet_association" {
   count          = 2
   subnet_id      = aws_subnet.private_subnet[count.index].id
