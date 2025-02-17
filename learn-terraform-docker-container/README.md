@@ -1,5 +1,3 @@
-Now we've installed Terraform, we can provision an NGINX server in less than a minute using Docker on Mac. I tried this on my mac but the same script will work for windows and unix as well.
-
 Prerequisite : Docker and terraform shouild be installed on your local machine 
 
 step. 1. Crearte a working dirtectory named  learn-terraform-docker-container
