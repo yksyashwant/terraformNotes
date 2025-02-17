@@ -2,6 +2,7 @@ what is checks ?
 
 Terraform, "checks" typically refer to a validation process that ensures your infrastructure code meets certain criteria before deployment. These checks help catch errors, inconsistencies, or potential issues early in the development process, reducing the risk of misconfigurations and unexpected behavior in your deployed infrastructure. Checks can be performed manually or automatically through various tools and practices. Here are a few common types of checks in the Terraform context:
 
+
 1. Syntax Checks:
 Syntax checks ensure that your Terraform configuration files are written correctly and follow the correct syntax rules. This includes validating that your code is properly formatted, free of syntax errors, and follows the correct structure of Terraform's HashiCorp Configuration Language (HCL).
 
