@@ -1,0 +1,20 @@
+1. Introduction and Day to Day activities 
+2. In Your Company You worked in Terraform there you have maintain statefiles. How to secure it in remote in AWS How you lock the files by using Dynamo DB.
+3. Who will take it create dynamo DB for likes means you only take decision or some bady give insteuctions.
+4 How can deploy the application by using ECS forgate and EKS.
+5. How can open forgate in ECS for EKS Cluster.
+6 Are deploy applications on EKS are creating infrastructure only.
+7.How to auto play books in yaml. How can you create and run multiple tasks play book.
+8. what is role of Ansible in monitoring explain detail way.
+9. In Sonarqube will find vulnerabilities how to you find it explai in detain.
+10. Tell me difference between CMD and Entry point.
+11. In your organization do you face any errors . are trouble shoot your own without taking any one help.
+12. how can create and check the Kubernetes cluster.
+13. How can you monitor the Kubernetes logs
+14. which monitoring tool you use like graphana or Prometheus. where you install it like your local machine or Ec2 or Kubernetes cluster.
+15. If you install it in your ec2 how can communicate with kubernetes.
+16.where you monitor the logs in prometheus.
+17. Are You use Cloud Watch. Where the resource information is present. 
+18.In cloud watch are you able to find how much memory consumed and rest directly. is it possible.
+19. In GitHub unexpectedly lost rebate commits how can you revert back . is it possible to regain logs.
+20. Difference between rebase and Merge.
